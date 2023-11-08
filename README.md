@@ -96,7 +96,7 @@ In this section, we will run the tests in parallel on multiple browsers on Brows
 
   Maven:
   ```sh
-  mvn compile exec:java -P bstack-parallel-browsers
+  mvn clean test -P bstack-parallel-browsers
   ```
 
   Gradle:
